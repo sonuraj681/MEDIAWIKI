@@ -5,14 +5,14 @@
 # Region
 variable "region" {
   type = string
-  default =  "us-west-2"
+  default =  "us-west-1"
 }
 
  # Availability Zones
  
 variable "azs" {
   type    = list(string)
-  default = ["us-west-2a", "us-west-2b", "us-west-2c"]
+  default = ["us-west-1a", "us-west-1b", "us-west-1c"]
 }
 
 variable "keyname" {
@@ -21,7 +21,7 @@ variable "keyname" {
 
 # RHEL 7.5
 variable "aws_ami" {
-  default="ami-096510cab1b6b2c6d"
+  default="ami-18726478"
 }
 
 # VPC and Subnet
