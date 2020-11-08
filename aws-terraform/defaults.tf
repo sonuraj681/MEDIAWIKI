@@ -21,7 +21,7 @@ variable "keyname" {
 
 # RHEL 7.5
 variable "aws_ami" {
-  default="ami-18726478"
+  default="ami-096510cab1b6b2c6d"
 }
 
 # VPC and Subnet
