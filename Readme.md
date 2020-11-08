@@ -60,7 +60,7 @@ Steps to setup
 
 7. Run Ansible Playbook for the DB Role:
 
-   cd ..\ansible-playbook
+   cd ../ansible-playbook
 
     ansible-playbook site.yml -i ec2.py -vv --private-key mediawiki.pem -i ec2.py --limit "tag_group_db" --tags "install_db" --ask-vault-pass -u ec2-user
 
